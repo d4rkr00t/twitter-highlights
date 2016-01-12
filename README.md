@@ -1,4 +1,4 @@
-Example app for building twitter feed highlights on different technologies.
+Example app for building twitter feed highlights using different technologies.
 
 ## License
 

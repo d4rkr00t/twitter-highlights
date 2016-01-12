@@ -1,0 +1,10 @@
+{
+  "name": "twitter-highlights",
+  "version": "0.0.0",
+  "description": "Example app for building twitter feed highlights on different technologies",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stanislav Sysoev <d4rkr00t@gmail.com> (http://sysoev.org)",
+  "license": "MIT"
+}

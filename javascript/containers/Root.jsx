@@ -1,14 +1,12 @@
 require('./../../common/css/materialize.css');
 
 import React from 'react';
-import { createStore } from 'redux';
+import configureStore from './../store/configure';
 import { Provider } from 'react-redux';
-
-import reducers from './../reducers';
 
 import App from './../components/App.jsx';
 
-const store = createStore(reducers);
+const store = configureStore();
 
 export default React.createClass({
   displayName: 'Root',

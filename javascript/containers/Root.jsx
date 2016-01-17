@@ -1,4 +1,4 @@
-require('../../common/css/material.css');
+require('./../../common/css/materialize.css');
 
 import React from 'react';
 import { createStore } from 'redux';

@@ -1,12 +1,19 @@
 import React from 'react';
 
+import Header from './Header.jsx';
+import Highlights from './Highlights.jsx';
+
 const App = React.createClass({
   displayName: 'App',
 
   render() {
     return (
       <div>
-        1
+        <Header/>
+
+        <div className="container" style={{ marginTop: 24 }}>
+          <Highlights/>
+        </div>
       </div>
     );
   }
